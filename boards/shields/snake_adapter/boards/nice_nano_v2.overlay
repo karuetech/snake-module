@@ -42,6 +42,6 @@
 
 / {
 	chosen {
-		zmk,underglow = &led_strip;
+		zmk,underglow = &WS2812;
 	};
 };
