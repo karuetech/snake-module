@@ -87,15 +87,6 @@
     pinctrl-names = "default", "sleep";
 };
 
-/soc/spi@4002f000/ws2812@0 {
-    compatible = "ws2812";
-    label = "led_strip_snake";  /* renamed to avoid conflict */
-    status = "okay";
-    pinctrl-0 = <&ws2812_default>;
-    pinctrl-names = "default";
-    /* other configuration stays the same */
-};
-
 &spi0 {
 	compatible = "nordic,nrf-spim";
 	status = "okay";
